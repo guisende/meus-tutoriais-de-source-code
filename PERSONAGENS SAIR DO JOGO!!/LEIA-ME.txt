@@ -1,6 +1,0 @@
-bote o FlxTransWindow.hx na pasta do source oki lol
-
-pra mais informaçoes sobre isso va no canal chamado Guisende Games la eu ensino como fazer isso
-lol
-
--guisende
