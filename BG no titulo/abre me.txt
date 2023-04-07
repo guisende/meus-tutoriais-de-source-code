@@ -1,7 +1,0 @@
-vai em assets/preload/images
-
-cria uma pasta chamada
-
--  titleMenu
-e bota as imagem la o tamanho e iqual do menuBG
-e exprimenta e divertido :)
