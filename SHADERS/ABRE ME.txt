@@ -1,8 +1,0 @@
-Shaders
-ClientPrefs
-PlayState
- na pasta source
-
-pasta chamada "options" e pra colocar
-ShadersOptions
- na pasta options
