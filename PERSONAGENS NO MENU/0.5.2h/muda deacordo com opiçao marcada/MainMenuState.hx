@@ -133,7 +133,8 @@ class MainMenuState extends MusicBeatState
 		FlxG.camera.follow(camFollowPos, null, 1);
 
 		// - COISAS LMAO
-		picke = new FlxSprite(-275, -150); // - possiçao!1!!1
+		//picke = new FlxSprite(-275, -150); // - possiçao!1!!1
+		picke = new FlxSprite(-275, -150).loadGraphic(Paths.image('mainchar/menu_picer'));
 		picke.frames = Paths.getSparrowAtlas('mainchar/menu_picer'); // - coloque seus cabos e imagem aqui
 		picke.animation.addByPrefix('almao', "deez pico idle", 24); // - em 'deez pico idle' mude para o seu xml
 		picke.animation.play('almao'); // - voce pode renomear o anim como quiser
@@ -141,7 +142,8 @@ class MainMenuState extends MusicBeatState
 		picke.setGraphicSize(Std.int(picke.width * 0.5)); // - tamanho
 		add(picke);
 
-		bfi = new FlxSprite(-275, -215);
+		//bfi = new FlxSprite(-275, -215);
+		bfi = new FlxSprite(-275, -150).loadGraphic(Paths.image('mainchar/menu_bf'));
 		bfi.frames = Paths.getSparrowAtlas('mainchar/menu_bf');
 		bfi.animation.addByPrefix('BFEI', "deez bf idle", 24);
 		bfi.animation.play('BFEI');
@@ -149,7 +151,8 @@ class MainMenuState extends MusicBeatState
 		bfi.setGraphicSize(Std.int(bfi.width * 0.5));
 		add(bfi);
 
-		spoopya = new FlxSprite(-275, -215);
+		//spoopya = new FlxSprite(-275, -215);
+		spoopya = new FlxSprite(-275, -215).loadGraphic(Paths.image('mainchar/menu_spooks'));
 		spoopya.frames = Paths.getSparrowAtlas('mainchar/menu_spooks');
 		spoopya.animation.addByPrefix('SPOOKEY', "deez skid and pump idle", 24);
 		spoopya.animation.play('SPOOKEY');
@@ -157,7 +160,8 @@ class MainMenuState extends MusicBeatState
 		spoopya.setGraphicSize(Std.int(spoopya.width * 0.5));
 		add(spoopya);
 
-		chestai = new FlxSprite(-55, 75);
+		//chestai = new FlxSprite(-55, 75);
+		chestai = new FlxSprite(-55, 75).loadGraphic(Paths.image('mainchar/menu_chester'));
 		chestai.frames = Paths.getSparrowAtlas('mainchar/menu_chester');
 		chestai.animation.addByPrefix('chesterdobrawlstars', "deez chester idle", 24);
 		chestai.animation.play('chesterdobrawlstars');
