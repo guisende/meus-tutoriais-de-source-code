@@ -1,8 +1,0 @@
-voce pode usar o Ctrl + X
-ou sei la
-
-bote o sonicUI em:
-assets/shared/images/cole aqui
-
-so isso
--guisende
