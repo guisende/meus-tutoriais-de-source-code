@@ -34,7 +34,7 @@ class CustomStoryModeState extends MusicBeatState
     var weekgroup:FlxTypedGroup<FlxSprite>;
 
     var charnames:Array<String> = ["personagem1", "personagem2"];
-    var weeksnames:Array<String> = ["weeknome1", "weeknome1"];
+    var weeksnames:Array<String> = ["weeknome1", "weeknome2"];
     var songArray:Array<String> = ["bopeebo", "fresh"];
 
     var bgsukerlmfa:FlxSprite;
@@ -171,7 +171,7 @@ class CustomStoryModeState extends MusicBeatState
 
                         switch (daChoice)
                         {
-                            case 'MoonWeek':
+                            case 'weeknome1':
                                 /*PlayState.storyPlaylist = ['musica1', 'musica1'];
                                 PlayState.isStoryMode = true;
                                 PlayState.storyDifficulty = 3;
@@ -211,7 +211,7 @@ class CustomStoryModeState extends MusicBeatState
                                     FreeplayState.destroyFreeplayVocals();
                                 };
 
-                            case 'JvWeek':
+                            case 'weeknome2':
                                 /*PlayState.storyPlaylist = ['musica1', 'musica1'];
                                 PlayState.isStoryMode = true;
                                 PlayState.storyDifficulty = 3;
